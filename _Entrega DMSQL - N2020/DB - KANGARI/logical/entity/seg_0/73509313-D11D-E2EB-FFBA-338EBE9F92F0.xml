@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73509313-D11D-E2EB-FFBA-338EBE9F92F0" name="Cadastro PJ Vaga Trabalho">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:41:53 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cnpj" id="CA5FBB56-CC1F-2767-1DB5-60EEE3B9C907">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 22:49:41 UTC</createdTime>
+<generatorID>1C091536-4A62-AE8A-26AA-BF756C299AE5</generatorID>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<referedAttribute>523D07D4-229E-60BE-18EE-F6218D13C9D8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ta_anuncio" id="C2B28928-9F23-D7CD-890F-EA74442DD211">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:43:04 UTC</createdTime>
+<notes><![CDATA[Titulo do anuncio da vaga de trabalho]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cf_cargo" id="A2FCB141-B0A9-8C92-5128-B80DA78CA56B">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:47:56 UTC</createdTime>
+<notes><![CDATA[Cargo / função disponivel para a contratação profissional]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dv_descvaga" id="5E64B9BE-714E-B660-934E-3EED122F8BB7">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:49:07 UTC</createdTime>
+<notes><![CDATA[Descrição da vaga, e criterios profissionais que o candidato deve ter para disputar a vaga de trabalho.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_codvaga" id="6DCCF8B0-240D-02DF-16C7-E72E0278F60A">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:55:22 UTC</createdTime>
+<notes><![CDATA[Codigo da vaga disponivel]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="el_estado" id="9BCA5581-3EE1-4497-B11D-7E6705BD53D4">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:50:24 UTC</createdTime>
+<notes><![CDATA[Estado que se encontra a vaga de trabalho.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cl_cidade" id="6B3B6D49-531F-EADA-B43C-8C0E1770B7AB">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:51:02 UTC</createdTime>
+<notes><![CDATA[Cidade  que se encontra a vaga de trabalho.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rl_regiaovaga" id="5A0ED775-1B38-61B6-EF25-12935DA4ED44">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:51:30 UTC</createdTime>
+<notes><![CDATA[Região que se encontra a vaga de trabalho.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="em_email" id="32836459-384B-5FBC-6CE1-B9DB69B55AE2">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 22:45:06 UTC</createdTime>
+<notes><![CDATA[E-mail para contato referente a vaga.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rv_respvaga" id="8BAEC764-7181-93F5-6289-62401B748E1D">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 22:46:04 UTC</createdTime>
+<notes><![CDATA[Responsavel pela vaga ]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jt_telefone" id="1D117A72-BDDC-7AFE-2E32-7A02C177CE6E">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 22:46:55 UTC</createdTime>
+<notes><![CDATA[Telefone de contato relacionado a vaga.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F097DB2D-C446-2714-12BA-598716767DB6" name="Cadastro PJ Vaga Trabalho PK">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:47:36 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C2B28928-9F23-D7CD-890F-EA74442DD211</attributeRef>
+<attributeRef>CA5FBB56-CC1F-2767-1DB5-60EEE3B9C907</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

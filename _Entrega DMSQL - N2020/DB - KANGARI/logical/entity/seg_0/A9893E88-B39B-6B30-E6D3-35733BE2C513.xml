@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9893E88-B39B-6B30-E6D3-35733BE2C513" name="Cadastro PJ">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:27:45 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cnpj" id="523D07D4-229E-60BE-18EE-F6218D13C9D8">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:29:29 UTC</createdTime>
+<notes><![CDATA[Numero do CNPJ da empresa.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rs_razaosocial" id="751046CB-855B-2850-FD5A-824959378ADE">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:30:02 UTC</createdTime>
+<notes><![CDATA[Razão social da empresa.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nf_nomefantasia" id="80D0B83F-3284-0451-D50F-8E6A1F431A39">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:30:46 UTC</createdTime>
+<notes><![CDATA[Nome fantasia da empresa.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ra_ramoatividade" id="5439A2F4-1EC4-6DF1-A848-36E3063CFCCA">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:31:41 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ed_endereco" id="61118D92-8B47-CAB5-2153-B446CC1B3BF8">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:32:08 UTC</createdTime>
+<notes><![CDATA[Endereço da empresa.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="re_respempresa" id="532B9074-6F24-9794-C09D-26170CE5A101">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:32:39 UTC</createdTime>
+<notes><![CDATA[Responsavel pela empresa]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rc_respcontabil" id="07CC4DE9-FC44-2E01-8193-A98AC45FC63E">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:33:39 UTC</createdTime>
+<notes><![CDATA[Responsavel contabil pela empresa]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="em_emailempresa" id="FCFEFEB9-3AA5-C8F8-58DC-4152A62210A3">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:36:23 UTC</createdTime>
+<notes><![CDATA[E-mail da empresa]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tl_telempresa" id="2B5B381A-A942-4B7C-B136-732FFB83F414">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:37:36 UTC</createdTime>
+<notes><![CDATA[Telefone Empresa]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="467E8F59-3124-2E4B-EF96-752F90DC4884" name="Cadastro PJ PK">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:29:42 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>523D07D4-229E-60BE-18EE-F6218D13C9D8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

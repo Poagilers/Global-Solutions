@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0194C998-51E8-ABB0-3C22-6519D4141D82" name="Cadastro Curriculo PF">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:20:33 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nd_cpfpf" id="74FA4AFA-1744-42E5-D1E2-8FC56D825A8B">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:18:19 UTC</createdTime>
+<comment><![CDATA[
+]]></comment>
+<generatorID>EDAEA4B7-EE06-3A59-5AA7-ACB44ED0C6E3</generatorID>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<referedAttribute>BC5662B9-4080-34C4-8AE1-224A3FA17D7A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rg_numrg" id="010DB3E7-B09C-C6EC-B796-2FEF45DC5300">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:22:05 UTC</createdTime>
+<notes><![CDATA[Cadastro do RG do usuario pessoa fisica.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cn_numcnh" id="09A53E9B-D198-195C-172B-A565D9CA2332">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:24:16 UTC</createdTime>
+<notes><![CDATA[Cadastro CNH usuario caso tenha.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="es_estadocivil" id="5EB332F4-12BA-B5AB-5EFE-F65B11230AB7">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:25:47 UTC</createdTime>
+<notes><![CDATA[Estado civil da pessoa fisica não obrigatório]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ff_filhod" id="AF5F65C7-9E76-B288-8228-F781FDF81E5D">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:27:23 UTC</createdTime>
+<notes><![CDATA[Caso o usuario tenha filhos, não obrigatório]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dn_datanasc" id="A6DD8803-65B3-CA37-C2E5-F8D1219B4BDE">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:28:15 UTC</createdTime>
+<notes><![CDATA[Data de nascimento do usuario, obrigatório]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fm_sexo" id="8620B3B8-B499-DF19-4632-2B6D90F180D0">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:29:15 UTC</createdTime>
+<notes><![CDATA[Masculino / Feminino, obrigatório]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ed_endereco" id="44E5A709-F102-A46A-C6A5-E70C392AE2D7">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:30:14 UTC</createdTime>
+<notes><![CDATA[Endereço residencial do usuario]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ct_certifiti" id="00291F3C-9F64-3A15-1F80-AC7B434D05A9">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:54:43 UTC</createdTime>
+<notes><![CDATA[Certificações que o usuaio tenha.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fe_escolaridade" id="B546595A-9993-0D9D-4B27-0285FB1B7999">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:00:00 UTC</createdTime>
+<notes><![CDATA[Escolaridade do usuario.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fc_cursos" id="E6E9B308-814A-D181-9AE7-EC0CE0FB8264">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:01:29 UTC</createdTime>
+<notes><![CDATA[Cursos extracurriculares de qualquer natureza]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fi_idiomas" id="23A27025-353D-3211-CD35-36EEA649303C">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:02:16 UTC</createdTime>
+<notes><![CDATA[Dominio de idiomas que o usuario possui]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ep_expprofissional" id="E2693A8A-373E-AADE-EC5E-4DA132D43726">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:03:34 UTC</createdTime>
+<notes><![CDATA[Experiencia profissional do usuário]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E9AB373B-8E98-A06A-E9FF-F65ED2D04972" name="Cadastro Curriculo PF PK">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:23:52 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>74FA4AFA-1744-42E5-D1E2-8FC56D825A8B</attributeRef>
+<attributeRef>74FA4AFA-1744-42E5-D1E2-8FC56D825A8B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

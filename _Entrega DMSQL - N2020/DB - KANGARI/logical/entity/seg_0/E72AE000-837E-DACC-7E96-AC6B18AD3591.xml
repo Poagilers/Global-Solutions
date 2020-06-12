@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E72AE000-837E-DACC-7E96-AC6B18AD3591" name="Cadastro PF">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:14:14 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nd_cpfpf" id="BC5662B9-4080-34C4-8AE1-224A3FA17D7A">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:15:22 UTC</createdTime>
+<comment><![CDATA[
+]]></comment>
+<notes><![CDATA[CPF do Usuario pessoa fisica obrigatório.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nc_nomepf" id="801662F8-59BA-8F96-65B6-2C38552AC324">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:15:22 UTC</createdTime>
+<comment><![CDATA[Nome do usuario obrigatório.]]></comment>
+<notes><![CDATA[Nome do usuario obrigatório.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="em_emailpf" id="C857ED1A-5042-B1A0-64C2-C78ADB676991">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:15:23 UTC</createdTime>
+<notes><![CDATA[E-mail do usuario obrigatório.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tl_telefonepf" id="961324D7-3FB2-0D06-4473-37F8ECAB4010">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:15:23 UTC</createdTime>
+<notes><![CDATA[Telefone celular usuario obrigatório.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="422CB3F6-98A6-71F2-17F2-64521045E44B" name="Cadastro PF PK">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:15:40 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC5662B9-4080-34C4-8AE1-224A3FA17D7A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relação Usuario -&gt; Curriculo" directorySegmentName="seg_0" id="EDAEA4B7-EE06-3A59-5AA7-ACB44ED0C6E3">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 21:18:19 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<sourcePk>422CB3F6-98A6-71F2-17F2-64521045E44B</sourcePk>
+<dominantRole>E72AE000-837E-DACC-7E96-AC6B18AD3591</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E72AE000-837E-DACC-7E96-AC6B18AD3591</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0194C998-51E8-ABB0-3C22-6519D4141D82</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
