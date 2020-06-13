@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Região Localizada as empresas" directorySegmentName="seg_0" id="45CC442B-AFEA-7069-48F9-087368CC565E">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 16:05:00 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<sourcePk>467E8F59-3124-2E4B-EF96-752F90DC4884</sourcePk>
+<dominantRole>A9893E88-B39B-6B30-E6D3-35733BE2C513</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A9893E88-B39B-6B30-E6D3-35733BE2C513</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6FD1C205-8145-871C-3008-5B0D94C97E5C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="ed_endereco" id="6A1AB4D7-D8FC-9318-3F55-0B569E6E0B4A">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 16:31:21 UTC</createdTime>
+<notes><![CDATA[Endereço da empresa com CEP obrigatório para determinar a região.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

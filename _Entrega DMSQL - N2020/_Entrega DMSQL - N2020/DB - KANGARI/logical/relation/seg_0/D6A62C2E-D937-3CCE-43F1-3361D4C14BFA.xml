@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PJ pode ter Varios investidores" directorySegmentName="seg_0" id="D6A62C2E-D937-3CCE-43F1-3361D4C14BFA">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 17:35:45 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<sourcePk>467E8F59-3124-2E4B-EF96-752F90DC4884</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A9893E88-B39B-6B30-E6D3-35733BE2C513</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7FA74FB1-7948-A335-5C8A-6D28D07BFDEC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

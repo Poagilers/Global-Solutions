@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E6D6987-F3BF-102B-2B86-9971F82E3F7F" name="Sujestões ">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-12 12:16:08 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nd_cpfpf" id="697A3728-2E48-975F-C8F2-B4C82D5347DC">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 17:01:30 UTC</createdTime>
+<comment><![CDATA[
+]]></comment>
+<generatorID>9522FA04-1C9B-9054-F00F-14304D905E40</generatorID>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<referedAttribute>BC5662B9-4080-34C4-8AE1-224A3FA17D7A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cnpj" id="FC04702A-F35F-ACB1-2715-ADB28F93C2EE">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 17:02:43 UTC</createdTime>
+<generatorID>AFD6FBB7-2876-E302-3194-5A4A5BA078B8</generatorID>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<referedAttribute>523D07D4-229E-60BE-18EE-F6218D13C9D8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E0095639-CA1B-856C-5AC3-0F10D390C567" name="Sujestões  PK">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 17:02:43 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6FD1C205-8145-871C-3008-5B0D94C97E5C" name="Empresas por Região">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-12 12:28:50 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nd_cpfpf" id="BB31F49D-5BE3-0A46-D938-669AF994CA4C">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 17:25:25 UTC</createdTime>
+<comment><![CDATA[
+]]></comment>
+<generatorID>3893DF3B-04BA-BADB-B853-21CD700C0609</generatorID>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<referedAttribute>BC5662B9-4080-34C4-8AE1-224A3FA17D7A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cnpj" id="9351F571-3D8A-3F14-0722-AB735D544C1C">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 16:05:00 UTC</createdTime>
+<generatorID>45CC442B-AFEA-7069-48F9-087368CC565E</generatorID>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<referedAttribute>523D07D4-229E-60BE-18EE-F6218D13C9D8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ed_endereco" id="EEF9F18B-7DDE-958A-344B-1B8820253455">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 16:34:32 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rg_norte" id="6000AE67-AD57-61D7-E790-687A0F4F244A">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 15:57:22 UTC</createdTime>
+<notes><![CDATA[Empresas localizadas na Região Norte]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rg_sul" id="65E496AE-3A6D-3D83-2AFC-4CC390104C69">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 15:58:14 UTC</createdTime>
+<notes><![CDATA[Empresas localizadas na Região SUL]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rg_leste" id="E3947498-BBCC-3AF0-E382-1FFF75454419">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 16:00:27 UTC</createdTime>
+<notes><![CDATA[Empresas localizadas na Região Leste]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rg_oeste" id="B8FEBC36-B85A-819C-E2B3-E39778D23881">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 16:01:04 UTC</createdTime>
+<notes><![CDATA[Empresas localizadas na Região Oeste]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20D429E4-9BB6-70CE-55E1-15BE3286D021" name="Empresas por Região PK">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 16:30:30 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>45CC442B-AFEA-7069-48F9-087368CC565E,EEF9F18B-7DDE-958A-344B-1B8820253455,3893DF3B-04BA-BADB-B853-21CD700C0609</newElementsIDs>
+<usedAttributes>
+<attributeRef>9351F571-3D8A-3F14-0722-AB735D544C1C</attributeRef>
+<attributeRef>EEF9F18B-7DDE-958A-344B-1B8820253455</attributeRef>
+<attributeRef>BB31F49D-5BE3-0A46-D938-669AF994CA4C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

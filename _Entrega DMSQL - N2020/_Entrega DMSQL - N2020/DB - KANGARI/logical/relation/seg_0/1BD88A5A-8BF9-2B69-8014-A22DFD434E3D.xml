@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Vagas com maior demanda - Procura" directorySegmentName="seg_0" id="1BD88A5A-8BF9-2B69-8014-A22DFD434E3D">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 15:52:31 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<sourcePk>F097DB2D-C446-2714-12BA-598716767DB6</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>ta_anuncio</nameOnSource>
+<nameOnTarget>ta_anuncio</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>73509313-D11D-E2EB-FFBA-338EBE9F92F0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BAF0C916-E322-0EC2-9A9E-77766E491F75</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

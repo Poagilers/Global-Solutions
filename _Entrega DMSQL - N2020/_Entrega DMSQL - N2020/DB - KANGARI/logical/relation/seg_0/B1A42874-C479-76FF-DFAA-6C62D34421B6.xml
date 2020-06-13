@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_12" directorySegmentName="seg_0" id="B1A42874-C479-76FF-DFAA-6C62D34421B6">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 16:26:02 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<sourcePk>467E8F59-3124-2E4B-EF96-752F90DC4884</sourcePk>
+<targetPk>3EAA378C-5E97-369E-126C-3A37F41F7830</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A9893E88-B39B-6B30-E6D3-35733BE2C513</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B6524DB5-9330-7B68-27B9-31E80F9BCEAC</targetEntity>
+<transferable>true</transferable>
+</Relation>

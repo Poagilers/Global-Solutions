@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7FA74FB1-7948-A335-5C8A-6D28D07BFDEC" name="Cadastro Parcerias x PF x PJ x Investidores">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-12 12:35:37 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nd_cpfpf" id="FAA8B4D2-A87D-4554-D8D7-F4B9DE432714">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 17:34:23 UTC</createdTime>
+<comment><![CDATA[
+]]></comment>
+<generatorID>AF8E5C6C-2AF4-78BD-E982-10B1B77CBBAA</generatorID>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<referedAttribute>BC5662B9-4080-34C4-8AE1-224A3FA17D7A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cnpj" id="2F154E52-55F9-7BB5-9AFF-14FFF5915618">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 17:35:45 UTC</createdTime>
+<generatorID>D6A62C2E-D937-3CCE-43F1-3361D4C14BFA</generatorID>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<referedAttribute>523D07D4-229E-60BE-18EE-F6218D13C9D8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="in_fisica" id="AA205456-D910-DD15-E122-2884B2478A26">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 17:10:14 UTC</createdTime>
+<notes><![CDATA[Investidor pessoa fisica.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="in_juridica" id="A13E2CAF-7136-01E4-292A-4E4F474F2260">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 17:10:14 UTC</createdTime>
+<notes><![CDATA[Investidor pessoa Juridica]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pa_parceiropf" id="254C2EF7-382D-8B52-7F7A-EA9530EFE42C">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 17:10:15 UTC</createdTime>
+<notes><![CDATA[Parceiro para investimentos e trabalhos em conjunto,  pessoa fisica.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pa_parceiropj" id="D02A8169-40A0-B404-105B-1D239C8D312C">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 17:15:04 UTC</createdTime>
+<notes><![CDATA[Parceiro para investimentos e trabalhos em conjunto,  pessoa fisica.]]></notes>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12C2ABBB-92F1-4DD2-78B8-44203EBA44B4" name="Cadastro Parcerias x PF x PJ x Investidores PK">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 17:34:23 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FAA8B4D2-A87D-4554-D8D7-F4B9DE432714</attributeRef>
+<attributeRef>2F154E52-55F9-7BB5-9AFF-14FFF5915618</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

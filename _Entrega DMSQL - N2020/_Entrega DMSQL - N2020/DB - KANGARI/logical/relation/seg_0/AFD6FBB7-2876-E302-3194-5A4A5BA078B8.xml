@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PJ pode dar muitas sujestõesv1" directorySegmentName="seg_0" id="AFD6FBB7-2876-E302-3194-5A4A5BA078B8">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-13 17:02:43 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<sourcePk>467E8F59-3124-2E4B-EF96-752F90DC4884</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A9893E88-B39B-6B30-E6D3-35733BE2C513</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1E6D6987-F3BF-102B-2B86-9971F82E3F7F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
