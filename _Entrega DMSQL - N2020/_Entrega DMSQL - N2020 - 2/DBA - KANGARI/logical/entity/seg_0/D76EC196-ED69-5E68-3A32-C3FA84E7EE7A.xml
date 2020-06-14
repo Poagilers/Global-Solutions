@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D76EC196-ED69-5E68-3A32-C3FA84E7EE7A" name="T_KNG_VAGAS_EMP">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 17:01:43 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cnpj" id="01857F7F-EEB5-7C94-D5A0-12DE7BA91354">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 17:35:31 UTC</createdTime>
+<generatorID>B2D91166-38CC-2174-A742-F600647FD5B6</generatorID>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<referedAttribute>523D07D4-229E-60BE-18EE-F6218D13C9D8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_estabelec" id="44D9A6EB-D52B-C062-5543-055557516ABC">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 17:34:09 UTC</createdTime>
+<generatorID>6CFD451D-C3E9-FAFD-70BE-5AAE57ED5F2F</generatorID>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<referedAttribute>9AADF586-F50E-1FFA-84C3-1786B307DA28</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_empresa" id="86ADBB2F-805A-372A-B063-51D76F631419">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 17:04:50 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco_emp" id="AC66ED91-A433-1932-6B11-F3CC62C5F1EF">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 17:04:50 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_forma_trabalho" id="9EEA9002-CE98-A548-E76C-40B87D372129">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 17:04:51 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_remuneracao" id="802E6BD5-2A1B-EB1F-727A-54D7DF418C61">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 17:04:51 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_negocia_remun" id="26E815E1-A0EF-E3ED-259B-FF960EFC1E58">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 17:04:52 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_ativ_desempenhar" id="B9935588-E748-81F5-9F25-B04F9F681967">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 17:04:53 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1D4231E-363F-6162-3BB0-96F2A9725907" name="T_KNG_VAGAS_EMP PK">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 17:07:01 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>44D9A6EB-D52B-C062-5543-055557516ABC</attributeRef>
+<attributeRef>01857F7F-EEB5-7C94-D5A0-12DE7BA91354</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

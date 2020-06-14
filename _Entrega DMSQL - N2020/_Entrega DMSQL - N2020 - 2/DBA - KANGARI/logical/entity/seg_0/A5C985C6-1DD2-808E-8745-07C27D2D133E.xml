@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A5C985C6-1DD2-808E-8745-07C27D2D133E" name="T_KNG_ESTABELEC">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 16:48:53 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cpf_pf" id="D5336C9A-4EDA-FA2E-1A5E-E66616953CF5">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 17:32:11 UTC</createdTime>
+<generatorID>0B9C1C95-DF27-A04F-0184-1575B09A368A</generatorID>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<referedAttribute>806B3A07-9BDB-8439-B314-2DF27B7236E8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_estabelec" id="9AADF586-F50E-1FFA-84C3-1786B307DA28">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 16:49:08 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_estabelec" id="AE2B2E75-7368-30A6-2F1A-02114B3B7DB2">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 16:49:08 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco_estab" id="75741967-08A2-566A-2CFA-604EAF1D2EB9">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 16:49:09 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FBE48E04-BAC4-084B-FD95-EA74A4F1A1C9" name="T_KNG_ESTABELEC PK">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 16:49:28 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9AADF586-F50E-1FFA-84C3-1786B307DA28</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

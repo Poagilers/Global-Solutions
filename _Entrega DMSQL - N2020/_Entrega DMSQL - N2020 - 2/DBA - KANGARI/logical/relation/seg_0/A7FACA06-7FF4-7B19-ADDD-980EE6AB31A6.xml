@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Uma PF pode ter 1 ou mais investidores." directorySegmentName="seg_0" id="A7FACA06-7FF4-7B19-ADDD-980EE6AB31A6">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 17:27:09 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<sourcePk>5866E034-D10D-A8C1-94C8-536623CF0E9F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E72AE000-837E-DACC-7E96-AC6B18AD3591</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>39698BCC-5EBA-981D-117A-F326441D6398</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

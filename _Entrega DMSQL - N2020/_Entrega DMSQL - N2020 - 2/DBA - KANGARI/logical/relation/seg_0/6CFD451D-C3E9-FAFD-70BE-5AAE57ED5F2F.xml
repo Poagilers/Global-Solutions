@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Um para muitos - Estabelecimento -&gt; Vagas" directorySegmentName="seg_0" id="6CFD451D-C3E9-FAFD-70BE-5AAE57ED5F2F">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 17:34:09 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<sourcePk>FBE48E04-BAC4-084B-FD95-EA74A4F1A1C9</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A5C985C6-1DD2-808E-8745-07C27D2D133E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D76EC196-ED69-5E68-3A32-C3FA84E7EE7A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

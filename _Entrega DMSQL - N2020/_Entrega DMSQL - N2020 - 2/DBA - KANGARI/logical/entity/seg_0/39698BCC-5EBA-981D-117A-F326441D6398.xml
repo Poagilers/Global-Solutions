@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39698BCC-5EBA-981D-117A-F326441D6398" name="T_KNG_EMPREEND">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 16:51:37 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cpf_pf" id="C9F312D9-124F-8FF9-E4FE-76E95E727861">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 17:27:09 UTC</createdTime>
+<generatorID>A7FACA06-7FF4-7B19-ADDD-980EE6AB31A6</generatorID>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<referedAttribute>806B3A07-9BDB-8439-B314-2DF27B7236E8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnpj" id="F8816397-7EEF-690E-C02E-AEF1AC31E361">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 17:28:25 UTC</createdTime>
+<generatorID>A8FC4D8F-8D38-B7CB-00F0-F6FF86F56A4F</generatorID>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<referedAttribute>523D07D4-229E-60BE-18EE-F6218D13C9D8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_ramo_empreend" id="AA8AAED0-3D81-DFF3-9A9A-B3CB2A2C6A2F">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 16:51:47 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_empreend" id="2DFFDBA1-D53E-6D55-345A-F526F578D712">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 16:51:48 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tx_mensagem_emp" id="41BCF8A3-72AF-673E-4837-271157576E06">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 16:51:48 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_forma_contato" id="73CDC393-D31A-244E-4287-0375CB922835">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 16:51:49 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4CBA01CF-3FBA-47CB-3020-A2BC3BD3A283" name="T_KNG_EMPREEND PK">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 16:52:12 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C9F312D9-124F-8FF9-E4FE-76E95E727861</attributeRef>
+<attributeRef>F8816397-7EEF-690E-C02E-AEF1AC31E361</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DBA - KANGARI" id="502F5698-97D7-2CEA-4A2D-67CFF6ED3F06" version="3.5">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:12:40 UTC</createdTime>
+<ownerDesignName>DB - KANGARI</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>502F5698-97D7-2CEA-4A2D-67CFF6ED3F06</designId>
+</OSDM_Design>

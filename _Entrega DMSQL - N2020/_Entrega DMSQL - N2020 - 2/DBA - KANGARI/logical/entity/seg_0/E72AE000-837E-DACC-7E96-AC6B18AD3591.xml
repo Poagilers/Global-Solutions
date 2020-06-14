@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E72AE000-837E-DACC-7E96-AC6B18AD3591" name="T_KNG_PESSOA_FIS">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:14:14 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cpf_pf" id="806B3A07-9BDB-8439-B314-2DF27B7236E8">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 16:30:30 UTC</createdTime>
+<notes><![CDATA[CPF  do Usuario pessoa fisica obrigatório.]]></notes>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_pessoa_fis" id="801662F8-59BA-8F96-65B6-2C38552AC324">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:15:22 UTC</createdTime>
+<comment><![CDATA[Nome do usuario obrigatório.]]></comment>
+<notes><![CDATA[Nome do usuario obrigatório.]]></notes>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email_pf" id="C857ED1A-5042-B1A0-64C2-C78ADB676991">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:15:23 UTC</createdTime>
+<notes><![CDATA[E-mail do usuario obrigatório.]]></notes>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento_pf" id="BC5662B9-4080-34C4-8AE1-224A3FA17D7A">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:15:22 UTC</createdTime>
+<comment><![CDATA[
+]]></comment>
+<notes><![CDATA[Data de nascimento  do Usuario pessoa fisica obrigatório.]]></notes>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_rg_pf" id="885415D1-5E11-EF62-22B7-7049798C078B">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 16:34:07 UTC</createdTime>
+<notes><![CDATA[RG do usuario criterio obrigatório]]></notes>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco_pf " id="E976D0D4-FF58-95E4-F620-DEEC0B96BE61">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 16:31:51 UTC</createdTime>
+<notes><![CDATA[Endereço do usuario pessoa fisica]]></notes>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone_pf" id="961324D7-3FB2-0D06-4473-37F8ECAB4010">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-11 20:15:23 UTC</createdTime>
+<notes><![CDATA[Telefone celular usuario obrigatório.]]></notes>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_senha_pf" id="82165784-90C4-4015-8046-82ABF0B3F504">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 16:36:13 UTC</createdTime>
+<notes><![CDATA[Senha do usuario PF]]></notes>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5866E034-D10D-A8C1-94C8-536623CF0E9F" name="T_KNG_PESSOA_FIS PK">
+<createdBy>gamsilva</createdBy>
+<createdTime>2020-06-14 16:30:58 UTC</createdTime>
+<ownerDesignName>DBA - KANGARI</ownerDesignName>
+<engineerTo>
+<item key="ED3DA00C-70C1-3C6A-FAAF-12201FBD9D55" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>806B3A07-9BDB-8439-B314-2DF27B7236E8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
