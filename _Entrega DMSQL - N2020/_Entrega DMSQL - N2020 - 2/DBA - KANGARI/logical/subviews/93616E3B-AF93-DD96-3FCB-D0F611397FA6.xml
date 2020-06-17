@@ -16,27 +16,89 @@
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="0CDC8BD3-67B0-6258-72AB-C8C58522B3C4" otype="Entity" vid="634F830D-799D-868C-2D36-A437A59508DE">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="19" y="207" width="312" height="158"/>
+<bounds x="10" y="286" width="312" height="158"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="20628502-2699-DB58-5EE3-C8F75B2DB3A5" otype="Note" vid="FEA8D58B-DD34-6B01-C14A-B914561A14CF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="64" y="585" width="419" height="72"/>
+<comment>T_KNG_EMPRESA pode ter uma ou mais associações com T_KNG_SUGESTAO
+
+T_KNG_SUGESTAO deve estar associada a uma ocorrencia de T_KNG_EMPRESA</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="39698BCC-5EBA-981D-117A-F326441D6398" otype="Entity" vid="78948F26-2E11-A05B-5CE6-365D51BADD85">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="599" y="199" width="267" height="138"/>
+<bounds x="963" y="269" width="267" height="138"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="42D3B1DF-B722-2721-E91B-63245A57EC5A" otype="Note" vid="D2EB1E5C-77EF-D048-ED5F-E91336D198D9">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="59" y="692" width="217" height="132"/>
+<comment>INTEGRANTES POAGILERS:
+
+Daniel Sanshez Melero - rm85109
+Gabriel Montovani da Silva - rm85642
+Giovanna de Mello Leiva - rm85817
+Gustavo Pereira dos Santos - rm85937
+Kaue Augusto Miranda Santos - rm85707
+Larissa Alves da Silva - rm86351
+ </comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="5CD96B2E-76ED-1872-7D31-062D597D5FDB" otype="Note" vid="7C037357-6383-AC62-DC7C-7B8D211CE9EE">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="961" y="621" width="486" height="52"/>
+<comment>T_KNG_EMPRESA pode ter uma ou mais associações com T_KNG_VAGAS_EMP
+
+T_KNG_VAGAS_EMP deve estar associada a uma ocorrencia de T_KNG_EMPRESA</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="764D3A74-D583-6921-FB29-96E061DD82F8" otype="Note" vid="3CD318B0-BA84-42CC-51A6-C85BF2DA5A05">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="723" y="93" width="368" height="75"/>
+<comment>T_KNG_PESSOA_FIS pode ter uma ou mais associações com T_KNG_ESTABELEC
+
+T_KNG_ESTABELEC deve estar associada a uma ocorrencia de T_KNG_PESSOA_FIS</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="76F308DB-993E-30D9-93C0-704C11D6FFBC" otype="Note" vid="54A7317D-A7D0-B4E5-7083-281FAD5F4A4B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="522" y="244" width="427" height="55"/>
+<comment>T_KNG_PESSOA_FIS pode ter uma ou mais associações com T_KNG_EMPREEND
+
+T_KNG_EMPREEND deve estar associada a uma ocorrencia de T_KNG_PESSOA_FIS</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="A5C985C6-1DD2-808E-8745-07C27D2D133E" otype="Entity" vid="D435B8DA-E50E-B776-F167-DA391BB728CF">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="755" y="24" width="288" height="101"/>
+<bounds x="1103" y="25" width="288" height="101"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="A9893E88-B39B-6B30-E6D3-35733BE2C513" otype="Entity" vid="E4053BF0-2DAE-5AF9-D741-8E0BF392A778">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="388" y="367" width="247" height="192"/>
+<bounds x="488" y="536" width="247" height="192"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D76EC196-ED69-5E68-3A32-C3FA84E7EE7A" otype="Entity" vid="3D1B4928-FC83-2BDA-9B19-F4EB26C156BB">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1110" y="190" width="361" height="182"/>
+<bounds x="1486" y="311" width="361" height="182"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="DF75CBFD-0A3C-18BB-189D-3DB42386C753" otype="Note" vid="05DBFE3C-8305-6104-46C5-F374F22BE5C3">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="524" y="402" width="419" height="64"/>
+<comment>T_KNG_EMPRESA pode ter uma ou mais associações com T_KNG_EMPREEND
+
+T_KNG_EMPREEND deve estar associada a uma ocorrencia de T_KNG_EMPRESA</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E72AE000-837E-DACC-7E96-AC6B18AD3591" otype="Entity" vid="2F6012A6-8F56-07B6-5AD4-FB8A6B7FB917">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="388" y="10" width="217" height="164"/>
+<bounds x="496" y="11" width="217" height="164"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="EBF68E5A-C600-7C30-9DE7-FE64F0C85362" otype="Note" vid="9275F4F3-4735-F0D8-2154-44C3A4EA15FA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="70" y="72" width="421" height="62"/>
+<comment>T_KNG_PESSOA_FIS pode ter uma ou mais associações com T_KNG_SUGESTAO
+
+T_KNG_SUGESTAO deve estar associada a uma ocorrencia de T_KNG_PESSOA_FIS</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="FB7F0084-A6A6-6C8F-3981-508BD9DE243A" otype="Note" vid="B6EE7A60-2D6C-383B-3D80-9E22E340A836">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1402" y="66" width="323" height="84"/>
+<comment>T_KNG_ESTABELEC pode ter uma ou mais associações com T_KNG_VAGAS_EMP
+
+T_KNG_VAGAS_EMP deve estar associada a uma ocorrencia de T_KNG_ESTABELEC</comment>
 </OView>
 </objectViews>
 <connectors>
@@ -45,8 +107,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="605" y="74"/>
-<point x="755" y="74"/>
+<point x="713" y="75"/>
+<point x="1103" y="75"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="6CFD451D-C3E9-FAFD-70BE-5AAE57ED5F2F" otype="Relation" vid_source="D435B8DA-E50E-B776-F167-DA391BB728CF" vid_target="3D1B4928-FC83-2BDA-9B19-F4EB26C156BB">
@@ -54,9 +116,9 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1043" y="70"/>
-<point x="1299" y="70"/>
-<point x="1299" y="190"/>
+<point x="1391" y="62"/>
+<point x="1734" y="62"/>
+<point x="1734" y="311"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="72250A9F-52AB-5F75-2ADA-D4EC6C9B7F92" otype="Relation" vid_source="E4053BF0-2DAE-5AF9-D741-8E0BF392A778" vid_target="634F830D-799D-868C-2D36-A437A59508DE">
@@ -64,9 +126,9 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="388" y="481"/>
-<point x="165" y="481"/>
-<point x="165" y="365"/>
+<point x="488" y="678"/>
+<point x="58" y="678"/>
+<point x="58" y="444"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="84F1419A-9A0C-16B2-3CD0-C3ADE0EDE8F8" otype="Relation" vid_source="2F6012A6-8F56-07B6-5AD4-FB8A6B7FB917" vid_target="634F830D-799D-868C-2D36-A437A59508DE">
@@ -74,9 +136,9 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="388" y="71"/>
-<point x="165" y="71"/>
-<point x="165" y="207"/>
+<point x="496" y="49"/>
+<point x="61" y="49"/>
+<point x="61" y="286"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="A7FACA06-7FF4-7B19-ADDD-980EE6AB31A6" otype="Relation" vid_source="2F6012A6-8F56-07B6-5AD4-FB8A6B7FB917" vid_target="78948F26-2E11-A05B-5CE6-365D51BADD85">
@@ -84,9 +146,9 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="494" y="174"/>
-<point x="494" y="241"/>
-<point x="599" y="241"/>
+<point x="513" y="175"/>
+<point x="513" y="317"/>
+<point x="963" y="317"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="A8FC4D8F-8D38-B7CB-00F0-F6FF86F56A4F" otype="Relation" vid_source="E4053BF0-2DAE-5AF9-D741-8E0BF392A778" vid_target="78948F26-2E11-A05B-5CE6-365D51BADD85">
@@ -94,9 +156,9 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="492" y="367"/>
-<point x="492" y="281"/>
-<point x="599" y="281"/>
+<point x="516" y="536"/>
+<point x="516" y="385"/>
+<point x="963" y="385"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="B2D91166-38CC-2174-A742-F600647FD5B6" otype="Relation" vid_source="E4053BF0-2DAE-5AF9-D741-8E0BF392A778" vid_target="3D1B4928-FC83-2BDA-9B19-F4EB26C156BB">
@@ -104,9 +166,9 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="635" y="481"/>
-<point x="1294" y="481"/>
-<point x="1294" y="372"/>
+<point x="735" y="682"/>
+<point x="1739" y="682"/>
+<point x="1739" y="493"/>
 </points>
 </Connector>
 </connectors>
